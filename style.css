@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Deixar os elementos centralizados, delimitar altura e aplicar propriedade flex */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* especificações da div cellphone */
+.cellphone {
+    width: 271px;
+    background-color: #a52196;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #782e6440;
+    font-family: "Helvetica Neve", sans-serif;
+    overflow: hidden;
+}
+
+/* tela de resultados */
+.result {
+    height: 75px;
+    padding: 20px;
+    text-align: right;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* Especificações relacionadas aos botões */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    color: #0f1010;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 78px;
+    margin: 0 auto;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px 21px;
+}
+/* padding aplicado ao botão de "ligar" em relação a div*/
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-bottom: 20px;
+}
+
+#button-on button{
+    background-color: aquamarine;
+}
